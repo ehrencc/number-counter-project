@@ -1,3 +1,5 @@
+//onload function to start program when everything loaded
+window.addEventListener('load', function() {
 // Create variable for the buttons
 var inc= document.getElementById("increase");
 var dec= document.getElementById("decrease");
@@ -33,3 +35,4 @@ function decreaseCount(){
     document.getElementById("count").style.color="teal";
     };
 };
+});
